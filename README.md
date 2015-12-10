@@ -1,10 +1,10 @@
 # What's this
 
-This repository is a list of articles that complain about golang's imperfection.
+This repository is a list of articles that complain about **golang**'s imperfection.
 
 ## Motivation
 
-Seems like complaining about go's flaws is becoming a trend. Any newbie must have a chance to read all the go-is-bad arguments before he goes too far. So here it is.
+Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must have a chance to read all the **go**-is-bad arguments before he goes too far. So here it is.
 
 # The list
 
