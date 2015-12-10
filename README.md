@@ -54,6 +54,10 @@ Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must
   - different build approaches
   - no sugar for slices
   - lack of basic data structures
++ http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/ (Keith Wesolowski, 2014)
+  - the worst compiler toolchain ever
+  - psuedointellectual arrogance of Rob Pike and everything he stands for
+  - confusing and undebuggable
 + http://blog.goodstuff.im/golang (David Pollak, 2015)
   - no immutables
   - too simple
