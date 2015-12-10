@@ -1,0 +1,181 @@
+[{
+	"URL": "https://cowlark.com/2009-11-15-go/",
+	"Author": "David Given",
+	"Year": 2009,
+	"Complaints": [
+		"c-style",
+		"poor design",
+		"no constructors",
+		"no user-type iteration",
+		"`new` and `make` instead of one",
+		"stuck in 70's",
+		"no OOP",
+		"lack of syntactic sugar"
+	]
+},{
+	"URL": "https://dzone.com/articles/i-don%E2%80%99t-much-get-go",
+	"Author": "Jon Davis",
+	"Year": 2010,
+	"Complaints": [
+		"no language interoperability (only C)",
+		"no versioning model",
+		"no OOP",
+		"has pointers",
+		"no semicolons at line endings",
+		"no `this`",
+		"no overloading",
+		"no exceptions"
+	]
+},{
+	"URL": "https://uberpython.wordpress.com/2012/09/23/why-im-not-leaving-python-for-go/",
+	"Author": "Yuval Greenfield",
+	"Year": 2012,
+	"Complaints": [
+		"error handling",
+		"stuck in 70's",
+		"`panic` instead of exceptions"
+	]
+},{
+	"URL": "http://www.darkcoding.net/software/go-lang-after-four-months/",
+	"Author": "Graham King",
+	"Year":  2012,
+	"Complaints": [
+		"un-googlable name",
+		"stuck in 70's",
+		"no exceptions",
+		"is compiled",
+		"too young"
+	]
+},{
+	"URL": "http://jozefg.bitbucket.org/posts/2013-08-23-leaving-go.html",
+	"Author": "Danny Gratzer",
+	"Year": 2013,
+	"Complaints": [
+		"no generics",
+		"is not extensible"
+	]
+},{
+	"URL": "http://magicmakerman.blogspot.ru/2013/07/why-googles-go-programming-language.html",
+	"Author": "Magic Maker Man",
+	"Year": 2013,
+	"Complaints": [
+		"no OOP",
+		"no asserts",
+		"has pointers",
+		"weird mascot (gopher)"
+	]
+},{
+	"URL": "http://how-bazaar.blogspot.ru/2013/04/the-go-language-my-thoughts.html",
+	"Author": "Tim Penhey",
+	"Year": 2013,
+	"Complaints": [
+		"error handling",
+		"inconvenient `range`",
+		"no generics"
+	]
+},{
+	"URL": "http://corte.si/posts/code/go/go-rant.html",
+	"Author": "Aldo Cortesi",
+	"Year": 2013,
+	"Complaints":[
+		"too opinionated"
+	]
+},{
+	"URL": "http://yager.io/programming/go.html",
+	"Author": "Will Yager",
+	"Year": 2014,
+	"Complaints":[
+		"no generics",
+		"no operator overloading",
+		"nil as a failure marker",
+		"type inference is too simple",
+		"no immutables",
+		"no pattern matching"
+	]
+},{
+	"URL": "http://blog.mattbasta.com/things_that_make_me_sad_in_go.html",
+	"Author": "Matt Basta",
+	"Year": 2014,
+	"Complaints":[
+		"project layout is bad",
+		"can't import packages relatively",
+		"different build approaches",
+		"no sugar for slices",
+		"lack of basic data structures"
+	]
+},{
+	"URL": "http://blog.goodstuff.im/golang",
+	"Author": "David Pollak",
+	"Year":  2015,
+	"Complaints":[
+		"no immutables",
+		"too simple",
+		"stupid syntax",
+		"too opinionated",
+		"error handling",
+		"stuck in 70's",
+		"no generics",
+		"method access modifiers (upper/lower case for public/private)",
+		"no `map` and `filter`"
+	]
+},{
+	"URL": "http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/",
+	"Author": "Gary Willoughby",
+	"Year": 2015,
+	"Complaints":[
+		"too simple",
+		"no generics",
+		"bad dependency management",
+		"stuck in 70's"
+	]
+},{
+	"URL": "http://spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/",
+	"Author": "Freddy Rangel",
+	"Year":  2015,
+	"Complaints":[
+		"not-so-obvious slices behaviour",
+		"error handling",
+		"hard to test, hard to mock"
+	]
+},{
+	"URL": "https://kaushalsubedi.com/blog/2015/11/10/golang-sucks-heres-why/",
+	"Author": "Kaushal Subedi",
+	"Year":  2015,
+	"Complaints":[
+		"no generics",
+		"slow json parsing",
+		"bad dependency management",
+		"no subpackages"
+	]
+},{
+	"URL": "http://byrd.im/go-is-poor",
+	"Author": "Ian Byrd",
+	"Year": 2015,
+	"Complaints":[
+		"slice manipulations are broken",
+		"nil interfaces are not entirely nil",
+		"funny variable shadowing",
+		"no first-class support of interfaces",
+		"questionable compiler rigidity",
+		"go generate is a quirk"
+	]
+},{
+	"URL": "http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/",
+	"Author": "Keith Wesolowski",
+	"Year": 2014,
+	"Complaints": [
+		"the worst compiler toolchain ever",
+		"psuedointellectual arrogance of Rob Pike and everything he stands for",
+		"confusing and undebuggable"
+	]
+},{
+	"URL": "http://www.evanmiller.org/four-days-of-go.html",
+	"Author": "Evan Miller",
+	"Year": 2015,
+	"Complaints": [
+		"no unused imports",
+		"too opinionated",
+		"poor std math lib",
+		"weird mascot (gopher)"
+	]
+}]
