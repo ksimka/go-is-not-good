@@ -86,3 +86,7 @@ Feel free to add a PR with a new or old article you found on the internet. The s
 + link (Author, year of publication)
  - common complaint 1
  - common complaint 2
+
+## todo
+
+- make reverse index: each common complaint to list of links to articles
