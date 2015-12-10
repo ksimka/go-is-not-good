@@ -77,6 +77,13 @@ Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must
   - not-so-obvious slices behaviour
   - error handling
   - hard to test, hard to mock
++ http://byrd.im/go-is-poor (Ian Byrd, 2015)
+  - slice manipulations are broken
+  - nil interfaces are not entirely nil
+  - funny variable shadowing
+  - no first-class support of interfaces
+  - questionable compiler rigidity
+  - go generate is a quirk
 + https://kaushalsubedi.com/blog/2015/11/10/golang-sucks-heres-why/ (Kaushal Subedi, 2015)
   - no generics
   - slow json parsing
