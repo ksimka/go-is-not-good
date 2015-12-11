@@ -58,6 +58,9 @@ Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must
   - the worst compiler toolchain ever
   - psuedointellectual arrogance of Rob Pike and everything he stands for
   - confusing and undebuggable
++ http://www.evanmiller.org/four-days-of-go.html (Evan Miller, 2015)
+  - no unused imports
+  - too opinionated
 + http://blog.goodstuff.im/golang (David Pollak, 2015)
   - no immutables
   - too simple
