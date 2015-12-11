@@ -4,7 +4,7 @@ This repository is a list of articles that complain about **golang**'s imperfect
 
 ## Motivation
 
-Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must have a chance to read all the **go**-is-bad arguments before he goes too far. So here it is.
+Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must have a chance to read all the **go**-is-bad arguments before they go too far. So here it is.
 
 # The list
 
