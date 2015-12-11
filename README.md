@@ -44,7 +44,7 @@ You're writing some code. And suddenly you understand you need something that la
   - no OOP
   - no asserts
   - has pointers
-  - mascot sucks (gopher)
+  - weird mascot (gopher)
 + http://how-bazaar.blogspot.ru/2013/04/the-go-language-my-thoughts.html (Tim Penhey, 2013)
   - error handling
   - inconvenient `range`
@@ -71,6 +71,8 @@ You're writing some code. And suddenly you understand you need something that la
 + http://www.evanmiller.org/four-days-of-go.html (Evan Miller, 2015)
   - no unused imports
   - too opinionated
+  - poor std math lib
+  - weird mascot (gopher)
 + http://blog.goodstuff.im/golang (David Pollak, 2015)
   - no immutables
   - too simple
