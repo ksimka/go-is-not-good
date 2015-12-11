@@ -18,6 +18,15 @@ You're writing some code. And suddenly you understand you need something that la
 
 # The list
 
++ https://cowlark.com/2009-11-15-go/ (David Given, 2009)
+  - c-style
+  - poor design
+  - no constructors
+  - no user-type iteration
+  - `new` and `make` instead of one
+  - stuck in 70's
+  - no OOP
+  - lack of syntactic sugar
 + https://dzone.com/articles/i-don%E2%80%99t-much-get-go (Jon Davis, 2010)
   - no language interoperability (only C)
   - no versioning model
