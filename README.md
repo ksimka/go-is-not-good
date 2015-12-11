@@ -58,6 +58,9 @@ You're writing some code. And suddenly you understand you need something that la
   - type inference is too simple
   - no immutables
   - no pattern matching
++ https://gist.github.com/kachayev/21e7fe149bc5ae0bd878 (Alexey Kachayev, 2014)
+  - no generics
+  - not everything is an expression
 + http://blog.mattbasta.com/things_that_make_me_sad_in_go.html (Matt Basta, 2014)
   - project layout is bad
   - can't import packages relatively
