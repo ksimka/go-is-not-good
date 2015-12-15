@@ -178,4 +178,15 @@
 		"poor std math lib",
 		"weird mascot (gopher)"
 	]
+},{
+	"URL": "https://www.scriptrock.com/blog/our-experience-with-golang",
+	"Author": "Mark Sheahan",
+	"Year": 2014,
+	"Complaints": [
+		"no decent IDE",
+		"too many `if`'s",
+		"variable shadowing",
+		"no generics",
+		"not-so-obvious slices behaviour"
+	]
 }]
