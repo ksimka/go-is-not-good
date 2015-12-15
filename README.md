@@ -271,3 +271,8 @@ Feel free to add a PR with a new or old article you found on the internet. The s
 	]
 }
 ```
+
+## TODO
+
++ merge complaints with the same ideas under the same names (make the complaints list smaller)
++ sort reverse index by the number of articles which have that complain (popular complains to the top)
