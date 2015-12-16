@@ -79,7 +79,7 @@ You're writing some code. And suddenly you understand you need something that la
   - confusing and undebuggable
 + https://www.scriptrock.com/blog/our-experience-with-golang (Mark Sheahan, 2014)
   - no decent IDE
-  - too many `if`'s
+  - error handling
   - variable shadowing
   - no generics
   - not-so-obvious slices behaviour
