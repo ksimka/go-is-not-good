@@ -104,6 +104,22 @@
 		"lack of basic data structures"
 	]
 },{
+	"URL": "https://rule1.quora.com/Golang-Not-yet",
+	"Author": "Jordan Zimmerman",
+	"Year":  2014,
+	"Complaints":[
+		"ide support is not good",
+		"GOPATH is a mess",
+		"pointers are a mess",
+		"upper-case/lower-case scoping is bad",
+		"hidden types",
+		"immature vm",
+		"hard to extend",
+		"no exceptions",
+		"no generics",
+		"dependency management is a near miss"
+	]
+},{
 	"URL": "http://blog.goodstuff.im/golang",
 	"Author": "David Pollak",
 	"Year":  2015,
