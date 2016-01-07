@@ -113,7 +113,7 @@
 		"pointers are a mess",
 		"upper-case/lower-case scoping is bad",
 		"hidden types",
-		"immature vm",
+		"immature gc",
 		"hard to extend",
 		"no exceptions",
 		"no generics",
