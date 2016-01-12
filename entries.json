@@ -10,7 +10,7 @@
 		"`new` and `make` instead of one",
 		"stuck in 70's",
 		"no OOP",
-		"lack of syntactic sugar"
+		"too simple / lack of syntactic sugar"
 	]
 },{
 	"URL": "https://dzone.com/articles/i-don%E2%80%99t-much-get-go",
@@ -23,7 +23,7 @@
 		"has pointers",
 		"no semicolons at line endings",
 		"no `this`",
-		"no overloading",
+		"no function/operator overloading",
 		"no exceptions"
 	]
 },{
@@ -52,7 +52,7 @@
 	"Year": 2013,
 	"Complaints": [
 		"no generics",
-		"is not extensible"
+		"hard to extend"
 	]
 },{
 	"URL": "http://magicmakerman.blogspot.ru/2013/07/why-googles-go-programming-language.html",
@@ -86,7 +86,7 @@
 	"Year": 2014,
 	"Complaints":[
 		"no generics",
-		"no operator overloading",
+		"no function/operator overloading",
 		"nil as a failure marker",
 		"type inference is too simple",
 		"no immutables",
@@ -108,16 +108,16 @@
 	"Author": "Jordan Zimmerman",
 	"Year":  2014,
 	"Complaints":[
-		"ide support is not good",
+		"no decent IDE",
 		"GOPATH is a mess",
 		"pointers are a mess",
 		"upper-case/lower-case scoping is bad",
 		"hidden types",
-		"immature gc",
+		"immature GC",
 		"hard to extend",
 		"no exceptions",
 		"no generics",
-		"dependency management is a near miss"
+		"bad dependency management"
 	]
 },{
 	"URL": "http://blog.goodstuff.im/golang",
@@ -125,13 +125,13 @@
 	"Year":  2015,
 	"Complaints":[
 		"no immutables",
-		"too simple",
+		"too simple / lack of syntactic sugar",
 		"stupid syntax",
 		"too opinionated",
 		"error handling",
 		"stuck in 70's",
 		"no generics",
-		"method access modifiers (upper/lower case for public/private)",
+		"upper-case/lower-case scoping is bad",
 		"no `map` and `filter`"
 	]
 },{
@@ -139,7 +139,7 @@
 	"Author": "Gary Willoughby",
 	"Year": 2015,
 	"Complaints":[
-		"too simple",
+		"too simple / lack of syntactic sugar",
 		"no generics",
 		"bad dependency management",
 		"stuck in 70's"
@@ -168,9 +168,9 @@
 	"Author": "Ian Byrd",
 	"Year": 2015,
 	"Complaints":[
-		"slice manipulations are broken",
+		"not-so-obvious slices behaviour",
 		"nil interfaces are not entirely nil",
-		"funny variable shadowing",
+		"unexpected variable shadowing",
 		"no first-class support of interfaces",
 		"questionable compiler rigidity",
 		"go generate is a quirk"
@@ -201,7 +201,7 @@
 	"Complaints": [
 		"no decent IDE",
 		"error handling",
-		"variable shadowing",
+		"unexpected variable shadowing",
 		"no generics",
 		"not-so-obvious slices behaviour"
 	]
