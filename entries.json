@@ -205,4 +205,13 @@
 		"no generics",
 		"not-so-obvious slices behaviour"
 	]
+},{
+	"URL": "http://go-traps.appspot.com/",
+	"Author": "Ripounet",
+	"Year": 2014,
+	"Complaints": [
+		"Shadowing",
+		"Octal prefix 0",
+		"Silent overflow"
+	]
 }]
