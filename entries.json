@@ -205,4 +205,20 @@
 		"no generics",
 		"not-so-obvious slices behaviour"
 	]
+},{
+        "URL": "http://tmikov.blogspot.com/2015/02/you-dont-like-googles-go-because-you.html",
+        "Author": "Tzvetan Mikov",
+        "Year": 2015,
+        "Complaints": [
+                "designed for stupid people",
+                "too verbose",
+                "no ternary operator",
+                "no macros or templates",
+                "can't change hash function in maps",
+                "unwieldy to code new collections",
+                "no function overloading",
+                "can't declare/validate implements interface",
+                "no virtual functions",
+                "case defined exports is bad"
+        ]
 }]
