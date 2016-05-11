@@ -126,7 +126,7 @@
 	"Complaints":[
 		"no immutables",
 		"too simple / lack of syntactic sugar",
-		"stupid syntax",
+		"confusing/stupid syntax",
 		"too opinionated",
 		"error handling",
 		"stuck in 70's",
@@ -220,5 +220,17 @@
                 "can't declare/validate implements interface",
                 "no virtual functions",
                 "case defined exports is bad"
+        ]
+},{
+        "URL": "http://valuedrivenit.blogspot.ru/2015/12/to-go-language-is-mess.html",
+        "Author": "Cliff Berg",
+        "Year": 2015,
+        "Complaints": [
+                "un-googlable name",
+                "confusing/stupid syntax",
+                "polymorphism is broken",
+                "compilation rules are too confining",
+                "designed for stupid people",
+                "package mechanism is broken"
         ]
 }]
