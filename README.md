@@ -88,7 +88,7 @@ You're writing some code. And suddenly you understand you need something that la
   - the worst compiler toolchain ever
   - psuedointellectual arrogance of Rob Pike and everything he stands for
   - confusing and undebuggable
-+ https://www.scriptrock.com/blog/our-experience-with-golang (Mark Sheahan, 2014)
++ https://www.upguard.com/blog/our-experience-with-golang (Mark Sheahan, 2014)
   - no decent IDE
   - error handling
   - unexpected variable shadowing
@@ -103,7 +103,7 @@ You're writing some code. And suddenly you understand you need something that la
   - slow json parsing
   - bad dependency management
   - no subpackages
-+ http://byrd.im/go-is-poor (Ian Byrd, 2015)
++ http://byrd.im/go-is-poor/ (Ian Byrd, 2015)
   - not-so-obvious slices behaviour
   - nil interfaces are not entirely nil
   - unexpected variable shadowing
