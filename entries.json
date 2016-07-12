@@ -242,4 +242,12 @@
         "no `map`/`reduce`/`filter`",
         "bad dependency management"
     ]
+},{
+    "URL": "http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/",
+    "Author": "JT Olds",
+    "Year": 2016,
+    "Complaints": [
+        "channels are slow",
+        "channel API is inconsistent"
+    ]
 }]
