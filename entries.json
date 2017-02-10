@@ -250,4 +250,14 @@
         "channels are slow",
         "channel API is inconsistent"
     ]
+},{
+    "URL": "https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e#.62yek82xg",
+    "Author": "Mike Hearn",
+    "Year": 2016,
+    "Complaints": [
+        "misleading marketing around garbage collector",
+        "garbage collector is nothing new; concurrent mark/sweep from the '70s",
+        "garbage collector requires implicit (hidden) tradeoffs",
+        "garbage collector optimized for pause times at the cost of other desirable gc features"
+    ]
 }]
