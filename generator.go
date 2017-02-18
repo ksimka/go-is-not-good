@@ -16,18 +16,6 @@ type Entry struct {
 	Complaints []string
 }
 
-type ByYear []*Entry
-
-func (a ByYear) Len() int {
-	return len(a)
-}
-func (a ByYear) Swap(i, j int) {
-	a[i], a[j] = a[j], a[i]
-}
-func (a ByYear) Less(i, j int) bool {
-	return a[i].Year < a[j].Year
-}
-
 func main() {
 	entries := []*Entry{}
 	entryBytes, err := ioutil.ReadFile("entries.json")
@@ -44,7 +32,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	sort.Sort(ByYear(entries))
+	sort.Slice(entries, func(i, j int) bool { return entries[i].Year < entries[j].Year })
 
 	entryTmpl, err := template.New("entry").Parse(`
 # The List
