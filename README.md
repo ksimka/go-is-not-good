@@ -32,7 +32,6 @@ You're writing some code. And suddenly you understand you need something that la
   - no versioning model
   - no OOP
   - has pointers
-  - no semicolons at line endings
   - no `this`
   - no function/operator overloading
   - no exceptions
