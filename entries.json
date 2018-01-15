@@ -260,4 +260,12 @@
         "garbage collector requires implicit (hidden) tradeoffs",
         "garbage collector optimized for pause times at the cost of other desirable gc features"
     ]
+},{
+    "URL": "https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/",
+    "Author": "Dane Johnson",
+    "Year": 2017,
+    "Complaints": [
+        "too opinionated",
+        "pointers are a mess"
+    ]
 }]
