@@ -260,4 +260,13 @@
         "garbage collector requires implicit (hidden) tradeoffs",
         "garbage collector optimized for pause times at the cost of other desirable gc features"
     ]
+},{
+    "URL": "https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/",
+    "Author": "Walter Schulze",
+    "Year": 2017,
+    "Complaints": [
+        "no sum types",
+        "no algebraic data types",
+        "multiple return parameters are overrated"
+    ]
 }]
