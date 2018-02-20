@@ -234,6 +234,19 @@
                 "package mechanism is broken"
         ]
 },{
+    "URL": "https://medium.com/@tucnak/why-go-is-a-poorly-designed-language-1cc04e5daf2",
+    "Author": "Ian Byrd",
+    "Year": 2015,
+    "Complaints": [
+        "Slice manipulations are just wrong!",
+        "Nil interfaces are not always nil :)",
+        "Funny variable shadowing",
+        "You can’t pass []struct as []interface",
+        "Non-obvious range “by-value” loops",
+        "Questionable compiler rigidity",
+        "Go generate is too quirky"
+    ]
+},{
     "URL": "https://medium.com/@rgausnet/3-reasons-why-go-isnt-the-perfect-language-yet-25e0da5ec04c",
     "Author": "Ryan Gaus",
     "Year": 2016,
