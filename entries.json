@@ -261,6 +261,18 @@
         "garbage collector optimized for pause times at the cost of other desirable gc features"
     ]
 },{
+    "URL": "http://sitr.us/2017/02/21/changes-i-would-make-to-go.html",
+    "Author": "Jesse Hallett",
+    "Year":  2017,
+    "Complaints":[
+	      "no non-nullable types",
+	      "error handling",
+	      "no generics",
+	      "no tagged unions",
+	      "no first-class tuple",
+	      "concurrency and parallelism are mixed"
+    ]
+ },{
     "URL": "http://www.yinwang.org/blog-cn/2014/04/18/golang",
     "Author": "Wang Yin",
     "Year": 2014,
