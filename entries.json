@@ -47,14 +47,6 @@
 		"too young"
 	]
 },{
-	"URL": "http://jozefg.bitbucket.org/posts/2013-08-23-leaving-go.html",
-	"Author": "Danny Gratzer",
-	"Year": 2013,
-	"Complaints": [
-		"no generics",
-		"hard to extend"
-	]
-},{
 	"URL": "http://magicmakerman.blogspot.ru/2013/07/why-googles-go-programming-language.html",
 	"Author": "Magic Maker Man",
 	"Year": 2013,
@@ -268,5 +260,41 @@
         "no sum types",
         "no algebraic data types",
         "multiple return parameters are overrated"
+    ]
+},{
+    "URL": "https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/",
+    "Author": "Dane Johnson",
+    "Year": 2017,
+    "Complaints": [
+        "too opinionated",
+        "pointers are a mess"
+    ]
+},{
+    "URL": "http://sitr.us/2017/02/21/changes-i-would-make-to-go.html",
+    "Author": "Jesse Hallett",
+    "Year":  2017,
+    "Complaints":[
+	      "no non-nullable types",
+	      "error handling",
+	      "no generics",
+	      "no tagged unions",
+	      "no first-class tuple",
+	      "concurrency and parallelism are mixed"
+    ]
+ },{
+    "URL": "http://www.yinwang.org/blog-cn/2014/04/18/golang",
+    "Author": "Wang Yin",
+    "Year": 2014,
+    "Complaints": [
+        "confusing/stupid syntax",
+        "immature toolchain",
+        "immature GC",
+        "no generics",
+        "multiple return values have no type checking",
+        "cumbersome interface",
+        "goroutine is not original and revolutionary",
+        "defer is abused",
+        "stuck in Unix thinking",
+        "summary: not elegant as Python, not strong as Java"
     ]
 }]
