@@ -265,11 +265,27 @@
     "Author": "Jesse Hallett",
     "Year":  2017,
     "Complaints":[
-	"no non-nullable types",
-	"error handling",
-	"no generics",
-	"no tagged unions",
-	"no first-class tuple",
-	"concurrency and parallelism are mixed"
+	      "no non-nullable types",
+	      "error handling",
+	      "no generics",
+	      "no tagged unions",
+	      "no first-class tuple",
+	      "concurrency and parallelism are mixed"
+    ]
+ },{
+    "URL": "http://www.yinwang.org/blog-cn/2014/04/18/golang",
+    "Author": "Wang Yin",
+    "Year": 2014,
+    "Complaints": [
+        "confusing/stupid syntax",
+        "immature toolchain",
+        "immature GC",
+        "no generics",
+        "multiple return values have no type checking",
+        "cumbersome interface",
+        "goroutine is not original and revolutionary",
+        "defer is abused",
+        "stuck in Unix thinking",
+        "summary: not elegant as Python, not strong as Java"
     ]
 }]
