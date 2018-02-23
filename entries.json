@@ -323,4 +323,15 @@
         "import-based vendoring is terrible",
         "no generics"
     ]
+},{
+    "URL": "https://grimoire.ca/dev/go",
+    "Author": "Owen Jacobson",
+    "Year": 2018,
+    "Complaints": [
+        "hostile to developer ergonomics",
+        "too opinionated",
+        "package mechanism is broken",
+        "GOPATH is a mess",
+        "error handling"
+    ]
 }]
