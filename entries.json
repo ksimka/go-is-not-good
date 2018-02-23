@@ -307,4 +307,20 @@
         "bad unicode support",
         "no asserts"
     ]
+},{
+    "URL": "https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html",
+    "Author": "Lawrence Kesteloot",
+    "Year": 2016,
+    "Complaints": [
+        "upper-case/lower-case scoping is bad",
+        "case defined exports is bad",
+        "no first-class support of interfaces",
+        "no exceptions",
+        "difficult to generate code automatically",
+        "no ternary operator",
+        "sort.Interface approach is clumsy",
+        "no versioning model",
+        "import-based vendoring is terrible",
+        "no generics"
+    ]
 }]
