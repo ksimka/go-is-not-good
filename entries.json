@@ -10,6 +10,15 @@
 		"`new` and `make` instead of one",
 		"stuck in 70's",
 		"no OOP",
+		"parameter types after names, not before",
+		"return types after function declaration, not before",
+		"no while loops",
+		"can't range over user-defined types",
+		"constants can only be numbers or strings",
+		"pointers are a mess",
+		"can't name nested functions",
+		"single-pass compiler",
+		"designers did not consult the literature",
 		"too simple / lack of syntactic sugar"
 	]
 },{
