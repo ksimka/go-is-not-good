@@ -85,17 +85,6 @@
 		"no pattern matching"
 	]
 },{
-	"URL": "http://blog.mattbasta.com/things_that_make_me_sad_in_go.html",
-	"Author": "Matt Basta",
-	"Year": 2014,
-	"Complaints":[
-		"project layout is bad",
-		"can't import packages relatively",
-		"different build approaches",
-		"no sugar for slices",
-		"lack of basic data structures"
-	]
-},{
 	"URL": "https://rule1.quora.com/Golang-Not-yet",
 	"Author": "Jordan Zimmerman",
 	"Year":  2014,
