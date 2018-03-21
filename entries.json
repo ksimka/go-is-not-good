@@ -29,10 +29,16 @@
 		"no language interoperability (only C)",
 		"no versioning model",
 		"no OOP",
+		"no GUI support",
+		"`new` and `make` instead of one",
+		"internationalization is limited to Unicode support",
 		"has pointers",
 		"no semicolons at line endings",
 		"no `this`",
 		"no function/operator overloading",
+		"not real-world oriented",
+		"`defer` lets you be lazy",
+		"ignores C#",
 		"no exceptions"
 	]
 },{
@@ -298,7 +304,7 @@
         "multiple return values have no type checking",
         "cumbersome interface",
         "goroutine is not original and revolutionary",
-        "defer is abused",
+        "`defer` is abused",
         "stuck in Unix thinking",
         "summary: not elegant as Python, not strong as Java"
     ]
