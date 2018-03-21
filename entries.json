@@ -10,8 +10,8 @@
 		"`new` and `make` instead of one",
 		"stuck in 70's",
 		"no OOP",
-		"parameter types after names, not before",
-		"return types after function declaration, not before",
+		"types go after identifiers, not before",
+		"return types after function name, not before",
 		"no while loops",
 		"can't range over user-defined types",
 		"constants can only be numbers or strings",
@@ -70,7 +70,7 @@
 	"Year": 2013,
 	"Complaints": [
 		"no OOP",
-		"no asserts",
+		"no assertions",
 		"has pointers",
 		"weird mascot (gopher)"
 	]
@@ -318,8 +318,17 @@
     "Complaints": [
         "c-style",
 	"unused imports are compile errors",
-        "bad unicode support",
-        "no asserts"
+	"unused variables are compile errors",
+        "bad Unicode support",
+	"types go after identifiers, not before",
+	"return types after function name, not before",
+	"no ternary operator",
+	"too verbose",
+	"semicolons are injected by the lexer",
+	"hard to pass function pointers to C",
+	"no incremental or parallel compilation",
+	"closures capture variables by reference, not by value",
+        "no assertions"
     ]
 },{
     "URL": "https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html",
