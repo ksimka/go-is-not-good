@@ -59,6 +59,9 @@
 		"stuck in 70's",
 		"no exceptions",
 		"is compiled",
+		"no read-eval-print loop",
+		"`fork()` is either wrong or impossible",
+		"string manipulation is a library package",
 		"too young"
 	]
 },{
