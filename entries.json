@@ -31,9 +31,9 @@
 	"Author": "Yuval Greenfield",
 	"Year": 2012,
 	"Complaints": [
-		"error handling",
+		"error handling is mandatory",
 		"stuck in 70's",
-		"`panic` instead of exceptions"
+		"no exceptions"
 	]
 },{
 	"URL": "http://www.darkcoding.net/software/go-lang-after-four-months/",
@@ -61,8 +61,12 @@
 	"Author": "Tim Penhey",
 	"Year": 2013,
 	"Complaints": [
-		"error handling",
+		"error handling is mandatory",
+		"no exceptions",
 		"inconvenient `range`",
+		"can't range over user-defined types",
+		"tabwidth too wide",
+		"gofmt's style is no one's favourite",
 		"no generics"
 	]
 },{
@@ -111,7 +115,7 @@
 		"too simple / lack of syntactic sugar",
 		"confusing/stupid syntax",
 		"too opinionated",
-		"error handling",
+		"error handling is mandatory",
 		"stuck in 70's",
 		"no generics",
 		"case-defined scoping is bad",
@@ -133,7 +137,7 @@
 	"Year":  2015,
 	"Complaints":[
 		"not-so-obvious slices behaviour",
-		"error handling",
+		"error handling is mandatory",
 		"hard to test, hard to mock"
 	]
 },{
@@ -183,7 +187,7 @@
 	"Year": 2014,
 	"Complaints": [
 		"no decent IDE",
-		"error handling",
+		"error handling is mandatory",
 		"unexpected variable shadowing",
 		"no generics",
 		"not-so-obvious slices behaviour"
@@ -267,7 +271,7 @@
     "Year":  2017,
     "Complaints":[
 	      "no non-nullable types",
-	      "error handling",
+	      "error handling is mandatory",
 	      "no generics",
 	      "no tagged unions",
 	      "no first-class tuple",
@@ -323,6 +327,6 @@
         "too opinionated",
         "package mechanism is broken",
         "GOPATH is a mess",
-        "error handling"
+        "error handling is mandatory"
     ]
 }]
