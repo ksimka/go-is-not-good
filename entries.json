@@ -70,7 +70,9 @@
 	"Author": "Aldo Cortesi",
 	"Year": 2013,
 	"Complaints":[
-		"too opinionated"
+		"too opinionated",
+		"unused imports are compile errors",
+		"unused variables are compile errors"
 	]
 },{
 	"URL": "http://yager.io/programming/go.html",
@@ -92,7 +94,7 @@
 		"no decent IDE",
 		"GOPATH is a mess",
 		"pointers are a mess",
-		"upper-case/lower-case scoping is bad",
+		"case-defined scoping is bad",
 		"hidden types",
 		"immature GC",
 		"hard to extend",
@@ -112,7 +114,7 @@
 		"error handling",
 		"stuck in 70's",
 		"no generics",
-		"upper-case/lower-case scoping is bad",
+		"case-defined scoping is bad",
 		"no `map`/`reduce`/`filter`"
 	]
 },{
@@ -170,7 +172,7 @@
 	"Author": "Evan Miller",
 	"Year": 2015,
 	"Complaints": [
-		"no unused imports",
+		"unused imports are compile errors",
 		"too opinionated",
 		"poor std math lib",
 		"weird mascot (gopher)"
@@ -197,10 +199,11 @@
                 "no macros or templates",
                 "can't change hash function in maps",
                 "unwieldy to code new collections",
-                "no function overloading",
+		"inconvenient `range`",
+                "no function/operator overloading",
                 "can't declare/validate implements interface",
                 "no virtual functions",
-                "case defined exports is bad"
+		"case-defined scoping is bad"
         ]
 },{
         "URL": "http://valuedrivenit.blogspot.ru/2015/12/to-go-language-is-mess.html",
@@ -292,7 +295,7 @@
     "Year": 2012,
     "Complaints": [
         "c-style",
-        "no unused imports",
+	"unused imports are compile errors",
         "bad unicode support",
         "no asserts"
     ]
@@ -301,8 +304,7 @@
     "Author": "Lawrence Kesteloot",
     "Year": 2016,
     "Complaints": [
-        "upper-case/lower-case scoping is bad",
-        "case defined exports is bad",
+        "case-defined scoping is bad",
         "no first-class support of interfaces",
         "no exceptions",
         "difficult to generate code automatically",
