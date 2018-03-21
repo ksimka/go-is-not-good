@@ -72,6 +72,10 @@
 		"no OOP",
 		"no assertions",
 		"has pointers",
+		"solves nobody's problem",
+		"no inheritance",
+		"no function/operator overloading",
+		"designers did not consult the literature",
 		"weird mascot (gopher)"
 	]
 },{
