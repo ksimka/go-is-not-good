@@ -110,6 +110,15 @@
 		"nil as a failure marker",
 		"type inference is too simple",
 		"no immutables",
+		"not a good language",
+                "unwieldy to code new collections",
+		"can't range over user-defined types",
+                "no ternary operator",
+		"dynamic memory allocation",
+		"garbage collector requires implicit (hidden) tradeoffs",
+		"not real-time oriented",
+		"no unsafe code isolation",
+		"stuck in 70's",
 		"no pattern matching"
 	]
 },{
