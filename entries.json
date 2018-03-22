@@ -409,4 +409,22 @@
         "GOPATH is a mess",
         "error handling is mandatory"
     ]
+},{
+	"URL": "https://memo.barrucadu.co.uk/three-months-of-go.html",
+	"Author": "Michael Walker",
+	"Year": 2016,
+	"Complaints": [
+		"bad dependency management",
+		"no generics",
+		"no sum types",
+		"no separation of pure code from effectful code",
+		"godoc doesn't support even basic formatting",
+		"godoc doesn't use source code ordering",
+		"profiler doesn't graph allocations over time",
+		"profiler doesn't track threads or garbage collection",
+		"zero values are a bad idea",
+		"too verbose",
+		"error handling is mandatory",
+		"weak typing"
+	]
 }]
