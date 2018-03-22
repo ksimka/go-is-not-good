@@ -137,7 +137,7 @@
 		"no generics",
 		"channels are overrated",
 		"duck typing of local variables",
-		"bad dependency management"
+		"dependency management sucks"
 	]
 },{
 	"URL": "http://blog.goodstuff.im/golang",
@@ -179,7 +179,7 @@
 	"Complaints":[
 		"no generics",
 		"slow json parsing",
-		"bad dependency management",
+		"dependency management sucks",
 		"too verbose",
 		"GOPATH is a mess",
 		"no subpackages"
@@ -202,7 +202,7 @@
 	"Year": 2014,
 	"Complaints": [
 		"the worst compiler toolchain ever",
-		"pseudointellectual arrogance of Rob Pike and everything he stands for",
+		"Rob Pike and other core developers are arrogant",
 		"stuck in '70s",
 		"Fisher-Price assembly language",
 		"stuck in Plan9 thinking",
@@ -257,18 +257,18 @@
 		"case-defined scoping is bad"
         ]
 },{
-        "URL": "http://valuedrivenit.blogspot.ru/2015/12/to-go-language-is-mess.html",
-        "Author": "Cliff Berg",
-        "Year": 2015,
-        "Complaints": [
-                "un-Googlable name",
-                "confusing/stupid syntax",
-                "polymorphism is broken",
-                "compilation rules are too confining",
-                "designed for stupid people",
-                "can't declare/validate implements interface",
-                "package mechanism is broken"
-        ]
+	"URL": "http://valuedrivenit.blogspot.ru/2015/12/to-go-language-is-mess.html",
+	"Author": "Cliff Berg",
+	"Year": 2015,
+	"Complaints": [
+		"un-Googlable name",
+		"confusing/stupid syntax",
+		"polymorphism is broken",
+		"compilation rules are too confining",
+		"designed for stupid people",
+		"can't declare/validate implements interface",
+		"dependency management sucks"
+	]
 },{
     "URL": "https://medium.com/@rgausnet/3-reasons-why-go-isnt-the-perfect-language-yet-25e0da5ec04c",
     "Author": "Ryan Gaus",
@@ -277,7 +277,7 @@
 	"not stable",
 	"no `map`/`reduce`/`filter`",
 	"no OOP",
-	"bad dependency management"
+	"dependency management sucks"
     ]
 },{
     "URL": "http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/",
@@ -361,7 +361,7 @@
         "stuck in Unix thinking",
         "types go after identifiers, not before",
         "no decent IDE",
-        "bad dependency management",
+        "dependency management sucks",
         "unwieldy to code new collections",
         "designers did not consult the literature",
         "error handling is mandatory",
@@ -402,22 +402,25 @@
         "no generics"
     ]
 },{
-    "URL": "https://grimoire.ca/dev/go",
-    "Author": "Owen Jacobson",
-    "Year": 2018,
-    "Complaints": [
-        "hostile to developer ergonomics",
-        "too opinionated",
-        "package mechanism is broken",
-        "GOPATH is a mess",
-        "error handling is mandatory"
-    ]
+	"URL": "https://grimoire.ca/dev/go",
+	"Author": "Owen Jacobson",
+	"Year": 2018,
+	"Complaints": [
+		"hostile to developer ergonomics",
+		"too opinionated",
+		"dependency management sucks",
+		"GOPATH is a mess",
+		"Rob Pike and other core developers are arrogant",
+		"no sum types",
+		"too verbose",
+		"error handling is mandatory"
+	]
 },{
 	"URL": "https://memo.barrucadu.co.uk/three-months-of-go.html",
 	"Author": "Michael Walker",
 	"Year": 2016,
 	"Complaints": [
-		"bad dependency management",
+		"dependency management sucks",
 		"no generics",
 		"no sum types",
 		"no separation of pure code from effectful code",
