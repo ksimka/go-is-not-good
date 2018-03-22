@@ -87,7 +87,7 @@
 		"no exceptions",
 		"inconvenient `range`",
 		"can't range over user-defined types",
-		"tabwidth too wide",
+		"tab width too wide",
 		"gofmt's style is no one's favourite",
 		"no generics"
 	]
@@ -115,7 +115,7 @@
 		"can't range over user-defined types",
 		"no ternary operator",
 		"dynamic memory allocation",
-		"garbage collector requires implicit (hidden) tradeoffs",
+		"garbage collector requires implicit (hidden) trade-offs",
 		"not real-time oriented",
 		"no unsafe code isolation",
 		"stuck in '70s",
@@ -299,9 +299,9 @@
 	"Complaints": [
 		"misleading marketing around garbage collector",
 		"garbage collector is nothing new; concurrent mark/sweep from the '70s",
-		"garbage collector requires implicit (hidden) tradeoffs",
+		"garbage collector requires implicit (hidden) trade-offs",
 		"stuck in '70s",
-		"garbage collector optimized for pause times at the cost of other desirable gc features"
+		"garbage collector optimized for pause times at the cost of other desirable GC features"
 	]
 },{
 	"URL": "https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/",
@@ -356,7 +356,7 @@
 		"no generics",
 		"multiple return values have no type checking",
 		"cumbersome interface",
-		"goroutine is not original and revolutionary",
+		"goroutines are not original",
 	"`defer` is abused",
 		"stuck in Unix thinking",
 		"types go after identifiers, not before",
