@@ -304,14 +304,16 @@
 	"garbage collector optimized for pause times at the cost of other desirable gc features"
     ]
 },{
-    "URL": "https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/",
-    "Author": "Walter Schulze",
-    "Year": 2017,
-    "Complaints": [
-        "no sum types",
-        "no algebraic data types",
-        "multiple return parameters are overrated"
-    ]
+	"URL": "https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/",
+	"Author": "Walter Schulze",
+	"Year": 2017,
+	"Complaints": [
+		"no sum types",
+		"no algebraic data types",
+		"tuples are not first-class values",
+		"can't pass multiple return values to a function",
+		"multiple return parameters are overrated"
+	]
 },{
 	"URL": "https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/",
 	"Author": "Dane Johnson",
@@ -330,7 +332,7 @@
 	"error handling is mandatory",
 	"error handling is not mandatory",
 	"no generics",
-	"no tagged unions",
+	"no sum types",
 	"no first-class tuple",
 	"zero values are a bad idea",
 	"too verbose",
