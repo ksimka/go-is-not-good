@@ -283,8 +283,13 @@
     "Author": "JT Olds",
     "Year": 2016,
     "Complaints": [
-        "channels are slow",
-        "channel API is inconsistent"
+	"channels are slow",
+	"channels are an anti-pattern",
+	"channels are not as efficient as plain mutexes",
+	"channel buffers are a fixed size",
+	"sending to a closed channel panics",
+	"sending to a nil channel does not panic",
+	"channel API is inconsistent"
     ]
 },{
     "URL": "https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e#.62yek82xg",
