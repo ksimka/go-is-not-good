@@ -313,13 +313,14 @@
         "multiple return parameters are overrated"
     ]
 },{
-    "URL": "https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/",
-    "Author": "Dane Johnson",
-    "Year": 2017,
-    "Complaints": [
-        "too opinionated",
-        "pointers are a mess"
-    ]
+	"URL": "https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/",
+	"Author": "Dane Johnson",
+	"Year": 2017,
+	"Complaints": [
+		"too opinionated",
+		"error handling is mandatory",
+		"pointers are a mess"
+	]
 },{
     "URL": "http://sitr.us/2017/02/21/changes-i-would-make-to-go.html",
     "Author": "Jesse Hallett",
