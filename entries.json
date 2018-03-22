@@ -181,6 +181,8 @@
 		"no generics",
 		"slow json parsing",
 		"bad dependency management",
+		"too verbose",
+		"GOPATH is a mess",
 		"no subpackages"
 	]
 },{
@@ -217,6 +219,12 @@
 		"unused imports are compile errors",
 		"too opinionated",
 		"poor std math lib",
+		":= is weird",
+		"no while loops",
+		"'rune' is a weird name",
+		"is garbage-collected",
+		"unused variables are compile errors",
+		"pseudointellectual arrogance of Rob Pike and everything he stands for",
 		"weird mascot (gopher)"
 	]
 },{
