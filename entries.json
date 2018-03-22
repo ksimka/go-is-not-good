@@ -476,4 +476,17 @@
 		"Rob Pike and other core developers are arrogant",
 		"no generics"
 	]
+},{
+	"URL": "http://dtrace.org/blogs/ahl/2016/08/02/i-love-go-i-hate-go/",
+	"Author": "Adam Leventhal",
+	"Year": 2016,
+	"Complaints": [
+		"stuck in Plan9 thinking",
+		"no assertions",
+		"un-Googlable name",
+		"tracebacks limited to 100 stack frames",
+		"confusing and undebuggable",
+		"no frame pointers",
+		"too opinionated"
+	]
 }]
