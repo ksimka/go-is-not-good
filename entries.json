@@ -6,7 +6,6 @@
 		"c-style",
 		"poor design",
 		"no constructors",
-		"no user-type iteration",
 		"`new` and `make` instead of one",
 		"stuck in '70s",
 		"no OOP",
@@ -432,5 +431,27 @@
 		"too verbose",
 		"error handling is mandatory",
 		"weak typing"
+	]
+},{
+	"URL": "https://bravenewgeek.com/go-is-unapologetically-flawed-heres-why-we-use-it/",
+	"Author": "Tyler Treat",
+	"Year": 2015,
+	"Complaints": [
+		"no generics",
+		"interfaces are not contracts",
+		"no function/operator overloading",
+		"no exceptions",
+		"can't range over user-defined types",
+		"sending to a closed channel panics",
+		"channels are not as efficient as plain mutexes",
+		"`defer` is slow",
+		"interface indirection is expensive",
+		"can't peek into channels",
+		"can't receive multiple values from channels",
+		"goroutines make it easy to leak things",
+		"dependency management sucks",
+		"immature toolchain",
+		"Rob Pike and other core developers are arrogant",
+		"can't add methods to types from other packages"
 	]
 }]
