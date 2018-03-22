@@ -454,4 +454,14 @@
 		"Rob Pike and other core developers are arrogant",
 		"can't add methods to types from other packages"
 	]
+},{
+	"URL": "https://faiface.github.io/post/context-should-go-away-go2/",
+	"Author": "Michal Štrba",
+	"Year": 2017,
+	"Complaints": [
+		"context spreads like a virus",
+		"context is an inefficient linked list",
+		"context is not an elegant solution to the cancellation problem",
+		"ctx.Value is a map of meaningless objects to meaningless objects"
+	]
 }]
