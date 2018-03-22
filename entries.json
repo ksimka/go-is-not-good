@@ -274,9 +274,10 @@
     "Author": "Ryan Gaus",
     "Year": 2016,
     "Complaints": [
-        "not stable",
-        "no `map`/`reduce`/`filter`",
-        "bad dependency management"
+	"not stable",
+	"no `map`/`reduce`/`filter`",
+	"no OOP",
+	"bad dependency management"
     ]
 },{
     "URL": "http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/",
