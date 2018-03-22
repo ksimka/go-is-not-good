@@ -464,4 +464,16 @@
 		"context is not an elegant solution to the cancellation problem",
 		"ctx.Value is a map of meaningless objects to meaningless objects"
 	]
+},{
+	"URL": "http://oneofmanyworlds.blogspot.co.uk/2014/01/another-go-at-go-failed.html",
+	"Author": "Srinivas Jonnalagadda",
+	"Year": 2014,
+	"Complaints": [
+		"no built-in set type",
+		"no built-in BitSet/BitArray type",
+		"maps are slow",
+		"slower than Java",
+		"Rob Pike and other core developers are arrogant",
+		"no generics"
+	]
 }]
