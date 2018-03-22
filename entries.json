@@ -357,7 +357,7 @@
 		"multiple return values have no type checking",
 		"cumbersome interface",
 		"goroutines are not original",
-	"`defer` is abused",
+		"`defer` is abused",
 		"stuck in Unix thinking",
 		"types go after identifiers, not before",
 		"no decent IDE",
