@@ -55,7 +55,7 @@
 	"Author": "Graham King",
 	"Year":  2012,
 	"Complaints": [
-		"un-googlable name",
+		"un-Googlable name",
 		"stuck in '70s",
 		"no exceptions",
 		"is compiled",
@@ -262,11 +262,12 @@
         "Author": "Cliff Berg",
         "Year": 2015,
         "Complaints": [
-                "un-googlable name",
+                "un-Googlable name",
                 "confusing/stupid syntax",
                 "polymorphism is broken",
                 "compilation rules are too confining",
                 "designed for stupid people",
+                "can't declare/validate implements interface",
                 "package mechanism is broken"
         ]
 },{
