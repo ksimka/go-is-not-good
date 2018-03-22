@@ -155,16 +155,6 @@
 		"no `map`/`reduce`/`filter`"
 	]
 },{
-	"URL": "http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/",
-	"Author": "Gary Willoughby",
-	"Year": 2015,
-	"Complaints":[
-		"too simple / lack of syntactic sugar",
-		"no generics",
-		"bad dependency management",
-		"stuck in '70s"
-	]
-},{
 	"URL": "http://spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/",
 	"Author": "Freddy Rangel",
 	"Year":  2015,

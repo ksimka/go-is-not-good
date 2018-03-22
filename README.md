@@ -78,6 +78,10 @@ You're writing some code. And suddenly you understand you need something that la
   - no incremental or parallel compilation
   - closures capture variables by reference, not by value
   - no assertions
++ http://corte.si/posts/code/go/go-rant.html (Aldo Cortesi, 2013)
+  - too opinionated
+  - unused imports are compile errors
+  - unused variables are compile errors
 + http://magicmakerman.blogspot.ru/2013/07/why-googles-go-programming-language.html (Magic Maker Man, 2013)
   - no OOP
   - no assertions
@@ -95,10 +99,15 @@ You're writing some code. And suddenly you understand you need something that la
   - tabwidth too wide
   - gofmt's style is no one's favourite
   - no generics
-+ http://corte.si/posts/code/go/go-rant.html (Aldo Cortesi, 2013)
-  - too opinionated
-  - unused imports are compile errors
-  - unused variables are compile errors
++ http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/ (Keith Wesolowski, 2014)
+  - the worst compiler toolchain ever
+  - pseudointellectual arrogance of Rob Pike and everything he stands for
+  - stuck in '70s
+  - Fisher-Price assembly language
+  - stuck in Plan9 thinking
+  - technical hubris
+  - assembler uses Unicode mid-dot character
+  - confusing and undebuggable
 + http://yager.io/programming/go.html (Will Yager, 2014)
   - no generics
   - no function/operator overloading
@@ -128,6 +137,14 @@ You're writing some code. And suddenly you understand you need something that la
   - channels are overrated
   - duck typing of local variables
   - bad dependency management
++ https://www.upguard.com/blog/our-experience-with-golang (Mark Sheahan, 2014)
+  - no decent IDE
+  - error handling is mandatory
+  - unexpected variable shadowing
+  - no generics
+  - no `map`/`reduce`/`filter`
+  - no immutables
+  - not-so-obvious slices behaviour
 + http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin, 2014)
   - confusing/stupid syntax
   - immature toolchain
@@ -145,23 +162,6 @@ You're writing some code. And suddenly you understand you need something that la
   - designers did not consult the literature
   - error handling is mandatory
   - summary: not elegant as Python, not strong as Java
-+ https://www.upguard.com/blog/our-experience-with-golang (Mark Sheahan, 2014)
-  - no decent IDE
-  - error handling is mandatory
-  - unexpected variable shadowing
-  - no generics
-  - no `map`/`reduce`/`filter`
-  - no immutables
-  - not-so-obvious slices behaviour
-+ http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/ (Keith Wesolowski, 2014)
-  - the worst compiler toolchain ever
-  - pseudointellectual arrogance of Rob Pike and everything he stands for
-  - stuck in '70s
-  - Fisher-Price assembly language
-  - stuck in Plan9 thinking
-  - technical hubris
-  - assembler uses Unicode mid-dot character
-  - confusing and undebuggable
 + http://byrd.im/go-is-poor/ (Ian Byrd, 2015)
   - not-so-obvious slices behaviour
   - nil interfaces are not entirely nil
@@ -176,17 +176,6 @@ You're writing some code. And suddenly you understand you need something that la
   - too verbose
   - GOPATH is a mess
   - no subpackages
-+ http://www.evanmiller.org/four-days-of-go.html (Evan Miller, 2015)
-  - unused imports are compile errors
-  - too opinionated
-  - poor std math lib
-  - := is weird
-  - no while loops
-  - 'rune' is a weird name
-  - is garbage-collected
-  - unused variables are compile errors
-  - pseudointellectual arrogance of Rob Pike and everything he stands for
-  - weird mascot (gopher)
 + http://spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/ (Freddy Rangel, 2015)
   - not-so-obvious slices behaviour
   - error handling is mandatory
@@ -211,11 +200,6 @@ You're writing some code. And suddenly you understand you need something that la
   - designed for stupid people
   - can't declare/validate implements interface
   - package mechanism is broken
-+ http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/ (Gary Willoughby, 2015)
-  - too simple / lack of syntactic sugar
-  - no generics
-  - bad dependency management
-  - stuck in '70s
 + http://blog.goodstuff.im/golang (David Pollak, 2015)
   - no immutables
   - too simple / lack of syntactic sugar
@@ -226,11 +210,29 @@ You're writing some code. And suddenly you understand you need something that la
   - no generics
   - case-defined scoping is bad
   - no `map`/`reduce`/`filter`
++ http://www.evanmiller.org/four-days-of-go.html (Evan Miller, 2015)
+  - unused imports are compile errors
+  - too opinionated
+  - poor std math lib
+  - := is weird
+  - no while loops
+  - 'rune' is a weird name
+  - is garbage-collected
+  - unused variables are compile errors
+  - pseudointellectual arrogance of Rob Pike and everything he stands for
+  - weird mascot (gopher)
 + https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e#.62yek82xg (Mike Hearn, 2016)
   - misleading marketing around garbage collector
   - garbage collector is nothing new; concurrent mark/sweep from the '70s
   - garbage collector requires implicit (hidden) tradeoffs
   - garbage collector optimized for pause times at the cost of other desirable gc features
++ http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/ (JT Olds, 2016)
+  - channels are slow
+  - channel API is inconsistent
++ https://medium.com/@rgausnet/3-reasons-why-go-isnt-the-perfect-language-yet-25e0da5ec04c (Ryan Gaus, 2016)
+  - not stable
+  - no `map`/`reduce`/`filter`
+  - bad dependency management
 + https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html (Lawrence Kesteloot, 2016)
   - case-defined scoping is bad
   - no first-class support of interfaces
@@ -241,13 +243,13 @@ You're writing some code. And suddenly you understand you need something that la
   - no versioning model
   - import-based vendoring is terrible
   - no generics
-+ http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/ (JT Olds, 2016)
-  - channels are slow
-  - channel API is inconsistent
-+ https://medium.com/@rgausnet/3-reasons-why-go-isnt-the-perfect-language-yet-25e0da5ec04c (Ryan Gaus, 2016)
-  - not stable
-  - no `map`/`reduce`/`filter`
-  - bad dependency management
++ https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/ (Walter Schulze, 2017)
+  - no sum types
+  - no algebraic data types
+  - multiple return parameters are overrated
++ https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/ (Dane Johnson, 2017)
+  - too opinionated
+  - pointers are a mess
 + http://sitr.us/2017/02/21/changes-i-would-make-to-go.html (Jesse Hallett, 2017)
   - no non-nullable types
   - error handling is mandatory
@@ -255,13 +257,6 @@ You're writing some code. And suddenly you understand you need something that la
   - no tagged unions
   - no first-class tuple
   - concurrency and parallelism are mixed
-+ https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/ (Dane Johnson, 2017)
-  - too opinionated
-  - pointers are a mess
-+ https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/ (Walter Schulze, 2017)
-  - no sum types
-  - no algebraic data types
-  - multiple return parameters are overrated
 + https://grimoire.ca/dev/go (Owen Jacobson, 2018)
   - hostile to developer ergonomics
   - too opinionated
@@ -301,7 +296,6 @@ It's a reverse complaints index, generated by https://github.com/ksimka/go-is-no
   - https://rule1.quora.com/Golang-Not-yet (Jordan Zimmerman 2014)
   - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
   - https://kaushalsubedi.com/blog/2015/11/10/golang-sucks-heres-why/ (Kaushal Subedi 2015)
-  - http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/ (Gary Willoughby 2015)
   - https://medium.com/@rgausnet/3-reasons-why-go-isnt-the-perfect-language-yet-25e0da5ec04c (Ryan Gaus 2016)
 + c-style
   - https://cowlark.com/2009-11-15-go/ (David Given 2009)
@@ -360,8 +354,8 @@ It's a reverse complaints index, generated by https://github.com/ksimka/go-is-no
 + error handling is mandatory
   - https://uberpython.wordpress.com/2012/09/23/why-im-not-leaving-python-for-go/ (Yuval Greenfield 2012)
   - http://how-bazaar.blogspot.ru/2013/04/the-go-language-my-thoughts.html (Tim Penhey 2013)
-  - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
   - https://www.upguard.com/blog/our-experience-with-golang (Mark Sheahan 2014)
+  - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
   - http://spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/ (Freddy Rangel 2015)
   - http://blog.goodstuff.im/golang (David Pollak 2015)
   - http://sitr.us/2017/02/21/changes-i-would-make-to-go.html (Jesse Hallett 2017)
@@ -441,8 +435,8 @@ It's a reverse complaints index, generated by https://github.com/ksimka/go-is-no
   - https://cowlark.com/2009-11-15-go/ (David Given 2009)
 + no decent IDE
   - https://rule1.quora.com/Golang-Not-yet (Jordan Zimmerman 2014)
-  - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
   - https://www.upguard.com/blog/our-experience-with-golang (Mark Sheahan 2014)
+  - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
 + no exceptions
   - https://dzone.com/articles/i-don%E2%80%99t-much-get-go (Jon Davis 2010)
   - https://uberpython.wordpress.com/2012/09/23/why-im-not-leaving-python-for-go/ (Yuval Greenfield 2012)
@@ -464,10 +458,9 @@ It's a reverse complaints index, generated by https://github.com/ksimka/go-is-no
   - http://how-bazaar.blogspot.ru/2013/04/the-go-language-my-thoughts.html (Tim Penhey 2013)
   - http://yager.io/programming/go.html (Will Yager 2014)
   - https://rule1.quora.com/Golang-Not-yet (Jordan Zimmerman 2014)
-  - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
   - https://www.upguard.com/blog/our-experience-with-golang (Mark Sheahan 2014)
+  - http://www.yinwang.org/blog-cn/2014/04/18/golang (Wang Yin 2014)
   - https://kaushalsubedi.com/blog/2015/11/10/golang-sucks-heres-why/ (Kaushal Subedi 2015)
-  - http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/ (Gary Willoughby 2015)
   - http://blog.goodstuff.im/golang (David Pollak 2015)
   - https://www.teamten.com/lawrence/writings/why-i-dont-like-go.html (Lawrence Kesteloot 2016)
   - http://sitr.us/2017/02/21/changes-i-would-make-to-go.html (Jesse Hallett 2017)
@@ -563,9 +556,8 @@ It's a reverse complaints index, generated by https://github.com/ksimka/go-is-no
   - https://cowlark.com/2009-11-15-go/ (David Given 2009)
   - https://uberpython.wordpress.com/2012/09/23/why-im-not-leaving-python-for-go/ (Yuval Greenfield 2012)
   - http://www.darkcoding.net/software/go-lang-after-four-months/ (Graham King 2012)
-  - http://yager.io/programming/go.html (Will Yager 2014)
   - http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/ (Keith Wesolowski 2014)
-  - http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/ (Gary Willoughby 2015)
+  - http://yager.io/programming/go.html (Will Yager 2014)
   - http://blog.goodstuff.im/golang (David Pollak 2015)
 + stuck in Plan9 thinking
   - http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/ (Keith Wesolowski 2014)
@@ -581,13 +573,12 @@ It's a reverse complaints index, generated by https://github.com/ksimka/go-is-no
   - http://dtrace.org/blogs/wesolows/2014/12/29/golang-is-trash/ (Keith Wesolowski 2014)
 + too opinionated
   - http://corte.si/posts/code/go/go-rant.html (Aldo Cortesi 2013)
-  - http://www.evanmiller.org/four-days-of-go.html (Evan Miller 2015)
   - http://blog.goodstuff.im/golang (David Pollak 2015)
+  - http://www.evanmiller.org/four-days-of-go.html (Evan Miller 2015)
   - https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/ (Dane Johnson 2017)
   - https://grimoire.ca/dev/go (Owen Jacobson 2018)
 + too simple / lack of syntactic sugar
   - https://cowlark.com/2009-11-15-go/ (David Given 2009)
-  - http://nomad.so/2015/03/why-gos-design-is-a-disservice-to-intelligent-programmers/ (Gary Willoughby 2015)
   - http://blog.goodstuff.im/golang (David Pollak 2015)
 + too verbose
   - http://ridiculousfish.com/blog/posts/go_bloviations.html (ridiculousfish 2012)
