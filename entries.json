@@ -8,7 +8,7 @@
 		"no constructors",
 		"no user-type iteration",
 		"`new` and `make` instead of one",
-		"stuck in 70's",
+		"stuck in '70s",
 		"no OOP",
 		"types go after identifiers, not before",
 		"return types after function name, not before",
@@ -47,7 +47,7 @@
 	"Year": 2012,
 	"Complaints": [
 		"error handling is mandatory",
-		"stuck in 70's",
+		"stuck in '70s",
 		"no exceptions"
 	]
 },{
@@ -56,7 +56,7 @@
 	"Year":  2012,
 	"Complaints": [
 		"un-googlable name",
-		"stuck in 70's",
+		"stuck in '70s",
 		"no exceptions",
 		"is compiled",
 		"no read-eval-print loop",
@@ -118,7 +118,7 @@
 		"garbage collector requires implicit (hidden) tradeoffs",
 		"not real-time oriented",
 		"no unsafe code isolation",
-		"stuck in 70's",
+		"stuck in '70s",
 		"no pattern matching"
 	]
 },{
@@ -149,7 +149,7 @@
 		"confusing/stupid syntax",
 		"too opinionated",
 		"error handling is mandatory",
-		"stuck in 70's",
+		"stuck in '70s",
 		"no generics",
 		"case-defined scoping is bad",
 		"no `map`/`reduce`/`filter`"
@@ -162,7 +162,7 @@
 		"too simple / lack of syntactic sugar",
 		"no generics",
 		"bad dependency management",
-		"stuck in 70's"
+		"stuck in '70s"
 	]
 },{
 	"URL": "http://spaces-vs-tabs.com/4-weeks-of-golang-the-good-the-bad-and-the-ugly/",
@@ -201,7 +201,12 @@
 	"Year": 2014,
 	"Complaints": [
 		"the worst compiler toolchain ever",
-		"psuedointellectual arrogance of Rob Pike and everything he stands for",
+		"pseudointellectual arrogance of Rob Pike and everything he stands for",
+		"stuck in '70s",
+		"Fisher-Price assembly language",
+		"stuck in Plan9 thinking",
+		"technical hubris",
+		"assembler uses Unicode mid-dot character",
 		"confusing and undebuggable"
 	]
 },{
@@ -223,6 +228,8 @@
 		"error handling is mandatory",
 		"unexpected variable shadowing",
 		"no generics",
+		"no `map`/`reduce`/`filter`",
+		"no immutables",
 		"not-so-obvious slices behaviour"
 	]
 },{
@@ -324,6 +331,12 @@
         "goroutine is not original and revolutionary",
         "`defer` is abused",
         "stuck in Unix thinking",
+        "types go after identifiers, not before",
+        "no decent IDE",
+        "bad dependency management",
+        "unwieldy to code new collections",
+        "designers did not consult the literature",
+        "error handling is mandatory",
         "summary: not elegant as Python, not strong as Java"
     ]
 },{
