@@ -325,12 +325,22 @@
     "Author": "Jesse Hallett",
     "Year":  2017,
     "Complaints":[
-	      "no non-nullable types",
-	      "error handling is mandatory",
-	      "no generics",
-	      "no tagged unions",
-	      "no first-class tuple",
-	      "concurrency and parallelism are mixed"
+	"no non-nullable types",
+	"error handling is mandatory",
+	"error handling is not mandatory",
+	"no generics",
+	"no tagged unions",
+	"no first-class tuple",
+	"zero values are a bad idea",
+	"too verbose",
+	"no macros or templates",
+	"tuples are not first-class values",
+	"no `map`/`reduce`/`filter`",
+	"can't range over user-defined types",
+	"can't `make` user-defined types",
+	"unwieldy to code new collections",
+	"designers did not consult the literature",
+	"concurrency and parallelism are mixed"
     ]
  },{
     "URL": "http://www.yinwang.org/blog-cn/2014/04/18/golang",
