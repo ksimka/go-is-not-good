@@ -496,6 +496,20 @@
 	"Complaints": [
 		"slower than C++",
 		"memory footprint is worse than C++",
-		"syntax is too different from C++"
+		"syntax is too different from C, C++, and Java"
+	]
+},{
+	"URL": "http://www.lessonsoffailure.com/software/googles-go-not-getting-us-anywhere-part-2/",
+	"Author": "Dave Rodenbaugh",
+	"Year": 2009,
+	"Complaints": [
+		"slower than C++",
+		"CSP implementation is only partial",
+		"standard library is limited",
+		"no GUI support in standard library",
+		"no database support in standard library",
+		"statically linked",
+		"no exceptions",
+		"syntax is too different from C, C++, and Java"
 	]
 }]
