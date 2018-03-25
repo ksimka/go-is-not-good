@@ -527,4 +527,17 @@
 		"no keyword arguments",
 		"no shebang lines"
 	]
+},{
+	"URL": "https://thenewstack.io/switching-to-go-and-learning-what-features-its-missing-along-the-way/",
+	"Author": "Matthew Campbell",
+	"Year": 2015,
+	"Complaints": [
+		"regex engine is slow",
+		"no generics",
+		"serialization is inefficient",
+		"is garbage-collected",
+		"no good integration test suite",
+		"no dynamic linking / plugins",
+		"no decent XML parser"
+	]
 }]
