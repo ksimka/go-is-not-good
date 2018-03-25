@@ -191,7 +191,7 @@
 		"not-so-obvious slices behaviour",
 		"nil interfaces are not entirely nil",
 		"unexpected variable shadowing",
-		"no first-class support of interfaces",
+		"interfaces are not first-class values",
 		"questionable compiler rigidity",
 		"go generate is a quirk"
 	]
@@ -332,7 +332,6 @@
 		"error handling is not mandatory",
 		"no generics",
 		"no sum types",
-		"no first-class tuple",
 		"zero values are a bad idea",
 		"too verbose",
 		"no macros or templates",
@@ -391,7 +390,7 @@
 	"Year": 2016,
 	"Complaints": [
 		"case-defined scoping is bad",
-		"no first-class support of interfaces",
+		"interfaces are not first-class values",
 		"no exceptions",
 		"difficult to generate code automatically",
 		"no ternary operator",
@@ -556,5 +555,17 @@
 		"profiling support is poor",
 		"public library packages are half-baked or abandoned",
 		"dependency management sucks"
+	]
+},{
+	"URL": "https://zapier.com/engineering/go-no-go/",
+	"Author": "Jordan Sherer",
+	"Year": 2017,
+	"Complaints": [
+		"unwieldy to code new collections",
+		"dependency management sucks",
+		"no inheritance",
+		"no classes",
+		"no generics",
+		"no exceptions"
 	]
 }]
