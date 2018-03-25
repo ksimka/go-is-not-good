@@ -15,3 +15,7 @@ I don't think anyone would deny that **go** has weaknesses: it certainly has. Bu
 ## How to use it
 
 You're writing some code. And suddenly you understand you need something that language can't give you. You go here and check if you're the one with that issue or not. If it's a common issue, it'll be here. Then you decide what to do: choose another tool for your task or go find a better solution or a workaround.
+
+## See also
+
+[How to complain about Go](https://divan.github.io/posts/go_complain_howto/)
