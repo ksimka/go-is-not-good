@@ -512,4 +512,19 @@
 		"no exceptions",
 		"syntax is too different from C, C++, and Java"
 	]
+},{
+	"URL": "https://blog.carlmjohnson.net/post/google-go-the-good-the-bad-and-the-meh/",
+	"Author": "Carl Johnson",
+	"Year": 2013,
+	"Complaints": [
+		"too simple / lack of syntactic sugar",
+		"no generics",
+		"string manipulation is a library package",
+		"too young",
+		"error handling is not mandatory",
+		"compiler warnings are errors",
+		"no function/operator overloading",
+		"no keyword arguments",
+		"no shebang lines"
+	]
 }]
