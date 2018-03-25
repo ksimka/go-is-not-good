@@ -489,4 +489,13 @@
 		"no frame pointers",
 		"too opinionated"
 	]
+},{
+	"URL": "http://www.lessonsoffailure.com/software/google-go-good-for-nothing/",
+	"Author": "Dave Rodenbaugh",
+	"Year": 2009,
+	"Complaints": [
+		"slower than C++",
+		"memory footprint is worse than C++",
+		"syntax is too different from C++"
+	]
 }]
