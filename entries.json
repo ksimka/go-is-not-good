@@ -540,4 +540,21 @@
 		"no dynamic linking / plugins",
 		"no decent XML parser"
 	]
+},{
+	"URL": "https://bugfender.com/blog/go-pros-cons-using-go-programming-language/",
+	"Author": "Aleix Ventayol",
+	"Year": 2017,
+	"Complaints": [
+		"shortage of experienced developers",
+		"import-based vendoring is terrible",
+		"compiler warnings are errors",
+		"circular dependencies are errors",
+		"unwieldy to code new collections",
+		"no generics",
+		"too young",
+		"debugging support is poor",
+		"profiling support is poor",
+		"public library packages are half-baked or abandoned",
+		"dependency management sucks"
+	]
 }]
