@@ -568,4 +568,38 @@
 		"no generics",
 		"no exceptions"
 	]
+},{
+	"URL": "https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/",
+	"Author": "Sylvain Wallez",
+	"Year": 2018,
+	"Complaints": [
+		"no generics",
+		"sort.Interface approach is clumsy",
+		"designers did not consult the literature",
+		"Fisher-Price assembly language",
+		"no functional programming",
+		"is garbage-collected",
+		"interfaces are not contracts",
+		"can't declare/validate implements interface",
+		"no enums",
+		"unexpected variable shadowing",
+		"zero values are a bad idea",
+		"error handling is mandatory",
+		"writing to a zero map panics",
+		"dependency management sucks",
+		"GOPATH is a mess",
+		"not-so-obvious slices behaviour",
+		"no immutables",
+		"race conditions are possible",
+		"io.EOF is an error",
+		"not Rust",
+		"interface values that hold nil concrete values are non-nil",
+		"struct field tags are free-form strings",
+		"no constructors",
+		"unwieldy to code new collections",
+		"can't range over user-defined types",
+		"no macros or templates",
+		"go generate is a quirk",
+		"no exceptions"
+	]
 }]
