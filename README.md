@@ -191,9 +191,6 @@ You're writing some code. And suddenly you understand you need something that la
   - no tagged unions
   - no first-class tuple
   - concurrency and parallelism are mixed
-+ https://maryvilledevcenter.com/golang-thinks-you-are-a-bad-programmer/ (Dane Johnson, 2017)
-  - too opinionated
-  - pointers are a mess
 + https://awalterschulze.github.io/blog/post/sum-types-over-multiple-returns/ (Walter Schulze, 2017)
   - no sum types
   - no algebraic data types
