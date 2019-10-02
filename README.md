@@ -2,6 +2,18 @@
 
 This repository is a list of articles that complain about **golang**'s imperfection.
 
+## Table of contents
+
+* [Overview](#whats-this)
+* [Table of contents](#table-of-contents)
+* [Motivation](#motivation)
+* [What it's for](#what-its-for)
+* [How to use it](#how-to-use-it)
+* [The List](#the-list)
+* [Reverse complaints index](#reverse-complaints-index)
+* [Get involved](#get-involved)
+* [TODO](#todo)
+
 ## Motivation
 
 Seems like complaining about **go**'s flaws is becoming a trend. Any newbie must have a chance to read all the **go**-is-bad arguments before they go too far. So here it is.
