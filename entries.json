@@ -326,4 +326,14 @@
         "GOPATH is a mess",
         "error handling"
     ]
+},{
+    "URL": "https://www.pixelstech.net/article/1541901293-Advantages-and-disadvantages-of-GoLang",
+    "Author": "Pi Ke",
+    "Year": 2018,
+    "Complaints": [
+        "lack of frameworks",
+        "error handling",
+		"package management",
+		"generics support is missing"
+    ]
 }]
